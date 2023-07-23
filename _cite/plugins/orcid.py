@@ -35,6 +35,8 @@ def main(entry):
     # go through response structure and pull out ids e.g. doi:1234/56789
     for work in response:
         for id in work["external-ids"]["external-id"]:
+            if id["external-id-type"] == "eid":
+                pass
             # get id and id-type from response
             id_type = id["external-id-type"]
             id_value = id["external-id-value"]
