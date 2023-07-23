@@ -1,9 +1,11 @@
 ---
 ---
 
-# jkaelber's Website
+# Welcome
 
-An engaging 1-3 sentence description of your lab.
+I would like to use this website to tell you about some research questions I am interested in, some exciting findings, and the wonderful people who work in my group. I will also post reference material such as job openings, opportunities for collaboration, and publications.
+
+I do two main things professionally: research, and service to the community through the Rutgers CryoEM & Nanoimaging Facility (RCNF). I maintain a separate page for the RCNF; you can find the RCNF webpage in the link above.
 
 {% include section.html %}
 
@@ -11,7 +13,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Viruses are the smallest but most elegant organisms on this planet. In this group we apply our expertise in structural biology techniques, especially cryo-electron microscopy, to map the chemistry of viruses to their ecology and applications. The smallest viruses are some of our favorites: parvoviruses (such as AAV), circoviruses, and anelloviruses.
 
 {%
   include button.html
@@ -28,13 +30,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Our Research"
+  title="Research"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Active projects include: designing improved viral vectors for gene therapy, improving methods for cryo-electron microscopy, understanding the basic biology of virus entry into the nucleus, creating vaccines and therapeutics for humans and economically-significant species, understanding the implications of virus structure and evolution for the search for life in the universe, and developing improved hardware for structural studies.
 
 {%
   include button.html
@@ -51,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Projects"
   flip=true
   style="bare"
   text=text
@@ -59,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Learn about lab members and their own interests. We come from backgrounds from condensed-matter physics to entomology to undertake cross-disciplinary investigations.
 
 {%
   include button.html
@@ -76,6 +78,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Team"
   text=text
 %}

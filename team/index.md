@@ -2,14 +2,12 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: About the team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Members of my research laboratory study topics from vaccine and therapeutic design to structure-function relationships to the basic physical properties of water.
 
 {% include section.html %}
 
@@ -18,9 +16,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We only accept Ph.D. candidates when we have at least 4 years of guaranteed funding. Prospective Ph.D. candidates should reach out in October to confirm funding availability. Expressions of interest for all other positions are welcome. Currently, we are especially seeking entry-level technical staff, as well as an undergraduate for a paid entomology position.
 
 {% include section.html %}
 
